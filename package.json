@@ -5,7 +5,7 @@
   "main": "commandLineApp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./app/commandLineApp.js"
+    "start": "node commandLineApp.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Eguono/AndelaHomeSessionDay2#readme",
   "dependencies": {
+    "request": "^2.81.0",
     "request-promise": "^4.2.0"
   }
 }
