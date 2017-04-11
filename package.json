@@ -1,0 +1,26 @@
+{
+  "name": "andela-commandlineapp",
+  "version": "1.0.0",
+  "description": "A simple command line application that consumes a Public Api using an HTTP Client Library",
+  "main": "commandLineApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app/commandLineApp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eguono/AndelaHomeSessionDay2.git"
+  },
+  "keywords": [
+    "Request-Promise"
+  ],
+  "author": "Eguonoghene Efekemo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eguono/AndelaHomeSessionDay2/issues"
+  },
+  "homepage": "https://github.com/Eguono/AndelaHomeSessionDay2#readme",
+  "dependencies": {
+    "request-promise": "^4.2.0"
+  }
+}
